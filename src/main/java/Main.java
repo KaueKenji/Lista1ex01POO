@@ -22,6 +22,10 @@ public class Main {
     Churrasco c = new Churrasco(p.idade, p.vegetariana);
 
     //exibir
+     System.out.println("Nome: " + p.nome);
+    System.out.println("Idade: " + p.idade);
+    System.out.println("Sexo: " + p.sexo);
+    System.out.println("Vegetariana: " + p.vegetariana);
     System.out.println(p.nome + " consumiu " + c.verificarConsumo() + "kg de Carne");
     
   
