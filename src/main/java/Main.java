@@ -16,16 +16,16 @@ public class Main {
     p.idade = Integer.parseInt(System.console().readLine());
     
     System.out.println("A Pessoa é Vegetariana?");
-    p.vegetariana = Boolean.parseBoolean(System.console().readLine());
+    p.vegetarian = Boolean.parseBoolean(System.console().readLine());
   
   //chamar Churrasco
-    Churrasco c = new Churrasco(p.idade, p.vegetariana);
+    Churrasco c = new Churrasco(p.idade, p.vegetarian);
 
     //exibir
      System.out.println("Nome: " + p.nome);
     System.out.println("Idade: " + p.idade);
     System.out.println("Sexo: " + p.sexo);
-    System.out.println("Vegetariana: " + p.vegetariana);
+    System.out.println("Vegetariana: " + p.vegetarian);
     System.out.println(p.nome + " consumiu " + c.verificarConsumo() + "kg de Carne");
     
   
